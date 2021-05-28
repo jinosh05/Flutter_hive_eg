@@ -66,5 +66,6 @@ I kept the code as original as possible with prober Commented Guides for anyone 
 # Download the APK
 
 
-.[Download Now].(https://github.com/jinosh05/Flutter_hive_eg/raw/main/app-release.apk)
+
+[Download Now](https://github.com/jinosh05/Flutter_hive_eg/raw/main/app-release.apk).
  
