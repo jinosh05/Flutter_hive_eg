@@ -26,7 +26,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: Hive.openBox('contacts'),
+      future: Hive.openBox('contacts', compactionStrategy: (total, deleted) {
+        // This will make the compacting when such condition is satisfied
+        return deleted > 5;
+      }),
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
           if (snapshot.hasError) {
@@ -48,6 +51,7 @@ class _MyAppState extends State<MyApp> {
     // To close all opened Hive Boxes
     //  Hive.close();
 
+    Hive.box('contacts').compact();
     // To just close a Particular box
     Hive.box('contacts').close();
     super.dispose();
