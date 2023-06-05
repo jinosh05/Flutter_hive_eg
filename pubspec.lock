@@ -194,13 +194,13 @@ packages:
     source: hosted
     version: "2.0.2"
   file:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: file
-      sha256: bbbe4cbd826c19385c87dcb11d07af2b26c98ac9ed94c1cd65172818570e25b2
+      sha256: "1b92bec4fc2a72f59a8e15af5f52cd441e4a7860b49499d69dfa817af20e925d"
       url: "https://pub.dev"
     source: hosted
-    version: "6.1.1"
+    version: "6.1.4"
   fixnum:
     dependency: transitive
     description:
@@ -453,13 +453,13 @@ packages:
     source: hosted
     version: "4.2.1"
   pub_semver:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: pub_semver
-      sha256: "59ed538734419e81f7fc18c98249ae72c3c7188bdd9dceff2840585227f79843"
+      sha256: "40d3ab1bbd474c4c2328c91e3a7df8c6dd629b79ece4c4bd04bee496a224fb0c"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "2.1.4"
   pubspec_parse:
     dependency: transitive
     description:
