@@ -197,10 +197,10 @@ packages:
     dependency: transitive
     description:
       name: ffi
-      sha256: "4842f817e11428513b7e88537318e48caac7d1bbf6035cdfca64b5017a6d5d8c"
+      sha256: ed5337a5660c506388a9f012be0288fb38b49020ce2b45fe1f8b8323fe429f99
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.0"
+    version: "2.0.2"
   file:
     dependency: transitive
     description:
@@ -376,26 +376,34 @@ packages:
     dependency: "direct main"
     description:
       name: path_provider
-      sha256: cfdc261c62a7273be7e051b19d27e503927a40919932f790681042a038f3605d
+      sha256: "3087813781ab814e4157b172f1a11c46be20179fcc9bea043e0fba36bc0acaa2"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.2"
+    version: "2.0.15"
+  path_provider_android:
+    dependency: transitive
+    description:
+      name: path_provider_android
+      sha256: "2cec049d282c7f13c594b4a73976b0b4f2d7a1838a6dd5aaf7bd9719196bee86"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.27"
+  path_provider_foundation:
+    dependency: transitive
+    description:
+      name: path_provider_foundation
+      sha256: "1995d88ec2948dac43edf8fe58eb434d35d22a2940ecee1a9fefcd62beee6eb3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.3"
   path_provider_linux:
     dependency: transitive
     description:
       name: path_provider_linux
-      sha256: "938d2b6591587bcb009d2109a6ea464fd8fb2a75dc6423171b0d0afb1d27c708"
+      sha256: ffbb8cc9ed2c9ec0e4b7a541e56fd79b138e8f47d2fb86815f15358a349b3b57
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
-  path_provider_macos:
-    dependency: transitive
-    description:
-      name: path_provider_macos
-      sha256: eb58b896ea3a504f0b0fa7870646bda6935a6f752b2a54df33f97070dacca8d4
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.0"
+    version: "2.1.11"
   path_provider_platform_interface:
     dependency: transitive
     description:
@@ -408,10 +416,10 @@ packages:
     dependency: transitive
     description:
       name: path_provider_windows
-      sha256: "99bb2d003df56a2a846e23f716bbf713a1d36d3e2a7d7e99ca4b01aeae80045a"
+      sha256: d3f80b32e83ec208ac95253e0cd4d298e104fbc63cb29c5c69edaed43b0c69d6
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.1"
+    version: "2.1.6"
   pedantic:
     dependency: transitive
     description:
@@ -605,10 +613,10 @@ packages:
     dependency: transitive
     description:
       name: win32
-      sha256: "6e4d8aa049a4853e2036a864733341496e1dea326f93a590d30f07bc2cb85119"
+      sha256: "5a751eddf9db89b3e5f9d50c20ab8612296e4e8db69009788d6c8b060a84191c"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.1"
+    version: "4.1.4"
   xdg_directories:
     dependency: transitive
     description:
@@ -627,4 +635,4 @@ packages:
     version: "3.1.0"
 sdks:
   dart: ">=3.0.0 <4.0.0"
-  flutter: ">=1.20.0"
+  flutter: ">=3.3.0"
