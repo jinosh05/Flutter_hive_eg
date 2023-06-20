@@ -1,6 +1,6 @@
 # hive_eg
 
-A new Flutter project.
+A A Flutter example project of Hive Database implementation.
 
 # Flutter_hive_eg
 
