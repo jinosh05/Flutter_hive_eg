@@ -69,3 +69,8 @@ I kept the code as original as possible with proper Commented Guides for anyone 
 
 [Download Now](https://github.com/jinosh05/Flutter_hive_eg/raw/main/app-release.apk).
  
+<div align="center">
+
+### Show some ❤️ by starring some of the repositories!
+
+</div>
