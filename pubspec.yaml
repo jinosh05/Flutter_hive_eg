@@ -11,11 +11,12 @@ dependencies:
   flutter:
     sdk: flutter
 
-  hive: ^2.0.4
+  hive: ^2.2.3
   hive_flutter:
-    git:
-      url: https://github.com/jinosh05/hive_flutter
+    # git:
+    #   url: https://github.com/jinosh05/hive_flutter
   path_provider: ^2.0.15
+  # platform: ^3.1.4
 
 dev_dependencies:
   flutter_test:
